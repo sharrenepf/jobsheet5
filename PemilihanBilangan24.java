@@ -8,7 +8,7 @@ public class PemilihanBilangan24 {
         int bilangan = input.nextInt(); // Membaca input bilangan dari user
 
         // Struktur if-else untuk menentukan apakah bilangan genap atau ganjil
-        if (bilangan % 2 == 0) { // Mengecek jika bilangan habis dibagi 2
+        if (bilangan % 2 == 0) { 
             System.out.println("Angka " + bilangan + " adalah bilangan genap");
         } else {
             System.out.println("Angka " + bilangan + " adalah bilangan ganjil");
